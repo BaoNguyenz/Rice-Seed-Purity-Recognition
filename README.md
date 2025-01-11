@@ -3,6 +3,26 @@
 ## Introduction  
 This project offers a robust and efficient solution for classifying rice seed purity to meet agricultural standards. It employs advanced image processing techniques, optimal feature selection methods, and machine learning algorithms to enhance accuracy and efficiency. This tool is designed to assist agricultural stakeholders in ensuring seed quality, productivity, and economic value.  
 
+## Data description
+
+The dataset used in this study consists of images from six prominent rice varieties commonly grown in northern Vietnam: **BC-15, Huong Thom-1, Nep-87, Q-5, Thien Uu-8, and Xi-23**. To create a balanced and practical model, the dataset is divided into two subsets for each variety:
+
+- **Positive Subset**: Contains images of seeds that belong to the target rice variety (e.g., the BC-15 subset includes only BC-15 seeds).  
+- **Negative Subset**: Includes images of seeds from other rice varieties or non-rice seeds to simulate potential misclassification scenarios (e.g., the BC-15 subset includes seeds from Huong Thom-1, Nep-87, etc.).
+
+This structured dataset reflects the real-world challenges faced by rice seed production companies, improving the model's ability to accurately classify rice varieties. The detailed distribution of images across subsets is provided in **Table 1**.
+
+| Rice Seed Name  | Training Set | Testing Set | Total Images |
+|-----------------|--------------|-------------|--------------|
+| BC-15           | 2573         | 1104        | 3677         |
+| Huong Thom-1    | 2905         | 1245        | 4150         |
+| Nep-87          | 2011         | 862         | 2873         |
+| Q-5             | 2107         | 903         | 3010         |
+| Thien Uu-8      | 1404         | 602         | 2006         |
+| Xi-23           | 2901         | 1244        | 4145         |
+**Data are available in the link below:(<insert-driver)**
+
+
 ## Installation  
 Follow these steps to set up and run the project:  
 1. **Clone the repository**:  
