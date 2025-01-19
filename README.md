@@ -10,7 +10,7 @@ The dataset used in this study consists of images from six prominent rice variet
 - **Positive Subset**: Contains images of seeds that belong to the target rice variety (e.g., the BC-15 subset includes only BC-15 seeds).  
 - **Negative Subset**: Includes images of seeds from other rice varieties or non-rice seeds to simulate potential misclassification scenarios (e.g., the BC-15 subset includes seeds from Huong Thom-1, Nep-87, etc.).
 
-This structured dataset reflects the real-world challenges faced by rice seed production companies, improving the model's ability to accurately classify rice varieties. The detailed distribution of images across subsets is provided in **Table 1**.
+This structured dataset reflects the real-world challenges faced by rice seed production companies, improving the model's ability to accurately classify rice varieties. The detailed distribution of images across subsets is provided in **Table**.
 
 | Rice Seed Name  | Training Set | Testing Set | Total Images |
 |-----------------|--------------|-------------|--------------|
