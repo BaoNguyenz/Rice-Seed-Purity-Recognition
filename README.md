@@ -1,7 +1,7 @@
 # Enhancing Rice Seed Purity Recognition Accuracy Based on Optimal Feature Selection  
 
 ## Introduction  
-This project offers a robust and efficient solution for classifying rice seed purity to meet agricultural standards. It employs advanced image processing techniques, optimal feature selection methods, and machine learning algorithms to enhance accuracy and efficiency. This tool is designed to assist agricultural stakeholders in ensuring seed quality, productivity, and economic value.  
+This project offers a robust and efficient solution for classifying rice seed purity to meet agricultural standards by leveraging a comprehensive dataset that captures morphological properties, overall image structure, texture information, and color distribution. To enhance accuracy and efficiency, we employ advanced feature selection techniques, including filter methods (Correlation, Chi-square, ANOVA), wrapper methods (Recursive Feature Elimination - RFE), and embedded methods (Random Forest, Decision Trees), ensuring that only the most significant features contribute to the classification process. By integrating machine learning models trained on these optimized feature sets, our system provides a scalable and precise approach to seed purity classification, supporting agricultural stakeholders in improving seed quality, productivity, and economic value. 
 
 ## Data description
 
