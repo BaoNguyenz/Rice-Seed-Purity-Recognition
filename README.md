@@ -29,22 +29,22 @@ Follow these steps to set up and run the project:
    ```bash
    https://github.com/BaoNguyenz/2024_ecological_Rice_seed.git
    cd 2024_ecological_Rice_seed
+   ```
+
+2. **Install Required Libraries**:  
+    ```bash
+    pip install requirements.txt
+    ```
+
 
 ## Usage  
 1. **Feature Extraction**:  
    - Navigate to the `Features_extraction` directory.  
-   - Install the required dependencies:  
-     ```bash
-     pip install -r Features_extraction/requirements.txt
-     ```  
    - Run the `Extract_features.ipynb` notebook to extract features from your rice seed dataset.  
 
 2. **Feature Selection**:  
    - Navigate to the `Features_selection_method` directory.  
    - Install the required dependencies:  
-     ```bash
-     pip install -r Features_selection_method/requirements.txt
-     ```  
    - Use one of the feature selection methods provided:  
      - `Filter_method.ipynb`  
      - `Wrapper_method.ipynb`  
