@@ -53,11 +53,11 @@ Follow these steps to set up and run the project:
 ### 3. Train Deep Learning Models on Kaggle
    - Upload the `Deep_Learning_model` folder to Kaggle.
    - Choose a model from the following options:
-     - `VGG16_model.ipynb`
-     - `ResNet50_model.ipynb`
-     - `InceptionV3_model.ipynb`
-     - `Dense121_model.ipynb`
-     - `EfficientNetB0_model.ipynb`
+     - `VGG16_model`
+     - `ResNet50_model`
+     - `InceptionV3_model`
+     - `Dense121_model`
+     - `EfficientNetB0_model`
    - Train the selected model using Kaggle's GPU P100 resources.
 
 ### 4. Grad-CAM Visualization
