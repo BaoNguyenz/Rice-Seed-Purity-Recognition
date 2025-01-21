@@ -24,6 +24,7 @@ os.makedirs(output_folder, exist_ok=True)
 
 all_images = [f for f in os.listdir(input_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
 
+#📌 **Note:** Change the number of images selected, right here!
 num_images = min(10, len(all_images)) 
 selected_images = random.sample(all_images, num_images)
 

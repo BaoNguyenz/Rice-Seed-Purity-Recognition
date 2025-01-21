@@ -60,6 +60,32 @@ Follow these steps to set up and run the project:
      - `EfficientNetB0_model` 
    - Train the selected model using Kaggle's GPU P100 resources.
 
+4. **Grad-CAM Visualization**
+Grad-CAM (Gradient-weighted Class Activation Mapping) is a powerful tool for visualizing the important regions in an image that a model uses to make predictions. This technique is especially useful for verifying the reliability of a model when classifying rice seeds.
+### Install Required Libraries
+Before running the script, install the necessary libraries by executing the following command:
+
+```bash
+pip install tensorflow numpy matplotlib
+```
+### Run the Grad-CAM Script
+To generate Grad-CAM visualizations, run the script using the following command:
+
+```bash
+python Grad_CAM.py
+```
+### Script Functionality
+The script performs the following steps:
+
+1. Randomly selects 10 images from the input data directory.
+2. Generates Grad-CAM maps and overlays them on the original images.
+3. Saves the results in the `grad_cam_results` directory.
+
+### Customization
+📌 **Note:** To change the number of images selected, edit the `num_images` variable in the script.
+
+---
+
 ## Project Structure
 
 ```
@@ -110,5 +136,8 @@ Follow these steps to set up and run the project:
 │   │   │   ├── tranferlearning-q5-efficientnetb0.ipynb
 │   │   │   ├── tranferlearning-thienuu-efficientnetb0.ipynb
 │   │   │   └── tranferlearning-xi23-efficientnetb0.ipynb
+│   ├── Grad_Cam_Visualization
+│   │   ├── Grad_CAM.py
+│   │   ├── grad_cam_results
 ```
  
