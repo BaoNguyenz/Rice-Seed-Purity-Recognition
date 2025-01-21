@@ -63,13 +63,6 @@ Follow these steps to set up and run the project:
 ### 4. Grad-CAM Visualization
    Grad-CAM (Gradient-weighted Class Activation Mapping) is a powerful tool for visualizing the important regions in an image that a model uses to make predictions. This technique is especially useful for verifying the reliability of a model when classifying rice seeds.
 
-#### Install Required Libraries
-   Before running the script, install the necessary libraries by executing the following command:
-
-   ```bash
-   pip install tensorflow numpy matplotlib
-   ```
-
 #### Run the Grad-CAM Script
    To generate Grad-CAM visualizations, run the script using the following command:
 
