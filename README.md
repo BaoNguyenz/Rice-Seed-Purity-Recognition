@@ -33,56 +33,59 @@ Follow these steps to set up and run the project:
 
 2. **Install Required Libraries**:  
     ```bash
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 
+## Usage
 
-## Usage  
-1. **Feature Extraction**:  
-   - Navigate to the `Features_extraction` directory.  
-   - Run the `Extract_features.ipynb` notebook to extract features from your rice seed dataset.  
+### 1. Feature Extraction
+   - Navigate to the `Features_extraction` directory.
+   - Run the `Extract_features.ipynb` notebook to extract features from your rice seed dataset.
 
-2. **Feature Selection**:  
-   - Navigate to the `Features_selection_method` directory.  
-   - Install the required dependencies:  
-   - Use one of the feature selection methods provided:  
-     - `Filter_method.ipynb`  
-     - `Wrapper_method.ipynb`  
-     - `Embedded_method.ipynb`  
+### 2. Feature Selection
+   - Navigate to the `Features_selection_method` directory.
+   - Install the required dependencies if needed.
+   - Use one of the feature selection methods provided:
+     - `Filter_method.ipynb`
+     - `Wrapper_method.ipynb`
+     - `Embedded_method.ipynb`
 
-3. **Train Deep Learning Models on Kaggle**:  
-   - Upload the `Deep_Learning_model` folder to Kaggle.  
-   - Choose a model from the available options:  
-     - `VGG16_model`
-     - `ResNet50_model` 
-     - `InceptionV3_model`
-     - `Dense121_model`
-     - `EfficientNetB0_model` 
+### 3. Train Deep Learning Models on Kaggle
+   - Upload the `Deep_Learning_model` folder to Kaggle.
+   - Choose a model from the following options:
+     - `VGG16_model.ipynb`
+     - `ResNet50_model.ipynb`
+     - `InceptionV3_model.ipynb`
+     - `Dense121_model.ipynb`
+     - `EfficientNetB0_model.ipynb`
    - Train the selected model using Kaggle's GPU P100 resources.
 
-4. **Grad-CAM Visualization**
-Grad-CAM (Gradient-weighted Class Activation Mapping) is a powerful tool for visualizing the important regions in an image that a model uses to make predictions. This technique is especially useful for verifying the reliability of a model when classifying rice seeds.
-### Install Required Libraries
-Before running the script, install the necessary libraries by executing the following command:
+### 4. Grad-CAM Visualization
+   Grad-CAM (Gradient-weighted Class Activation Mapping) is a powerful tool for visualizing the important regions in an image that a model uses to make predictions. This technique is especially useful for verifying the reliability of a model when classifying rice seeds.
 
-```bash
-pip install tensorflow numpy matplotlib
-```
-### Run the Grad-CAM Script
-To generate Grad-CAM visualizations, run the script using the following command:
+#### Install Required Libraries
+   Before running the script, install the necessary libraries by executing the following command:
 
-```bash
-python Grad_CAM.py
-```
-### Script Functionality
-The script performs the following steps:
+   ```bash
+   pip install tensorflow numpy matplotlib
+   ```
 
-1. Randomly selects 10 images from the input data directory.
-2. Generates Grad-CAM maps and overlays them on the original images.
-3. Saves the results in the `grad_cam_results` directory.
+#### Run the Grad-CAM Script
+   To generate Grad-CAM visualizations, run the script using the following command:
 
-### Customization
-📌 **Note:** To change the number of images selected, edit the `num_images` variable in the script.
+   ```bash
+   python Grad_CAM.py
+   ```
+
+#### Script Functionality
+   The script performs the following steps:
+
+   1. Randomly selects 10 images from the input data directory.
+   2. Generates Grad-CAM maps and overlays them on the original images.
+   3. Saves the results in the `grad_cam_results` directory.
+
+#### Customization
+   📌 **Note:** To change the number of images selected, edit the `num_images` variable in the script.
 
 ---
 
@@ -140,4 +143,7 @@ The script performs the following steps:
 │   │   ├── Grad_CAM.py
 │   │   ├── grad_cam_results
 ```
+
+## Contributing
+We welcome contributions! If you find any suggestions for improvements, feel free to open an issue or submit a pull request.
  
