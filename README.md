@@ -80,7 +80,23 @@ Follow these steps to set up and run the project:
 #### Customization
    📌 **Note:** To change the number of images selected, edit the `num_images` variable in the script.
 
----
+### Dataset & Publication
+
+- **Data are available in the link below: [Google Drive](https://drive.google.com/drive/folders/1LqkUIPmZRlam6CFkcRR37BznsMHVV2tn)**
+
+- **Citation:**
+
+Phan, T.T.H., Nguyen, L.H.B. (2025).  
+Enhancing rice seed purity recognition accuracy based on optimal feature selection.  
+Ecological Informatics, 86, 103044.  
+https://doi.org/10.1016/j.ecoinf.2025.103044  
+Available online: https://www.sciencedirect.com/science/article/pii/S1574954125000536
+
+You may also access the paper: https://doi.org/10.1007/978-3-031-75596-5_6
+
+```
+Thi-Thu-Hong Phan*, Le Huu Bao Nguyen
+```
 
 ## Project Structure
 
