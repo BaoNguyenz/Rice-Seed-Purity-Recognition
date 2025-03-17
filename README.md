@@ -21,8 +21,6 @@ This structured dataset reflects the real-world challenges faced by rice seed pr
 | Thien Uu-8      | 1404         | 602         | 2006         |
 | Xi-23           | 2901         | 1244        | 4145         |
 
-**Data are available in the link below: [Google Drive](https://drive.google.com/drive/folders/1LqkUIPmZRlam6CFkcRR37BznsMHVV2tn)**
-
 ## Installation  
 Follow these steps to set up and run the project:  
 1. **Clone the repository**:  
