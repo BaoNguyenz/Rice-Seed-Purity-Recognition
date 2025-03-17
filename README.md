@@ -90,7 +90,7 @@ Ecological Informatics, 86, 103044.
 https://doi.org/10.1016/j.ecoinf.2025.103044  
 Available online: https://www.sciencedirect.com/science/article/pii/S1574954125000536
 
-You may also access the paper: https://doi.org/10.1007/978-3-031-75596-5_6
+You may also access the paper: (https://doi.org/10.1016/j.ecoinf.2025.103044)
 
 ```
 Thi-Thu-Hong Phan*, Le Huu Bao Nguyen
